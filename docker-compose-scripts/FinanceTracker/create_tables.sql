@@ -1,7 +1,6 @@
 CREATE TABLE Partidas (
     id_partida INT PRIMARY KEY,
     domicilio VARCHAR(255),
-    fecha DATE
 );
 
 CREATE TABLE Transacciones (
