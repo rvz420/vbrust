@@ -1,6 +1,7 @@
 CREATE TABLE Partidas (
     id_partida INT PRIMARY KEY,
     domicilio VARCHAR(255),
+    descripcion VARCHAR(255),
 );
 
 CREATE TABLE Transacciones (
