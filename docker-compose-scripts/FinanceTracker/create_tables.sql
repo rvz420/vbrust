@@ -5,7 +5,7 @@ CREATE TABLE Partidas (
 );
 
 CREATE TABLE Transacciones (
-    id_transaccion INT PRIMARY KEY,
+    id_transaccion INT AUTO_INCREMENT PRIMARY KEY,
     id_partida INT,
     descripcion VARCHAR(255),
     monto DECIMAL(10, 2),
